@@ -32,4 +32,18 @@ Este projeto consiste no desenvolvimento de uma estação de monitoramento ambie
   - IDE de desenvolvimento **Arduino** ou **PlatformIO**.
   - Biblioteca **Wire** para comunicação I2C.
 
+- **Configuração**:
+  - Clone o repositório:
+   git clone https://github.com/eduardoYan/Esp32_AHT10_RTOS.git
+
+  - Abra o código na sua IDE preferida e configure a rede Wi-Fi e o canal do ThingSpeak.
+
+  - Instale as bibliotecas necessárias:
+    Wire: Para comunicação I2C.
+    ThingSpeak: Para comunicação com a plataforma.
+
+  - Carregue o código no seu ESP32
+    
+  - O sistema começará a coletar dados de temperatura e umidade, enviando-os para o ThingSpeak e notificando no Telegram.
+
 
